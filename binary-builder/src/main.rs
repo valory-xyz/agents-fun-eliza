@@ -15,8 +15,8 @@ fn os_arch_subfolder() -> Option<&'static str> {
     let os = env::consts::OS; // e.g. "macos", "linux", "windows"
     let arch = env::consts::ARCH; // e.g. "x86_64", "aarch64"
     match (os, arch) {
-        ("macos", "aarch64") => Some("darwin_arm64"),
-        ("macos", "x86_64") => Some("darwin_x64"),
+        ("macos", "aarch64") => Some("macos_arm64"),
+        ("macos", "x86_64") => Some("macos_x64"),
         ("linux", "x86_64") => Some("linux_x64"),
         ("linux", "aarch64") => Some("linux_arm64"),
         ("windows", "x86_64") => Some("win_x64"),

@@ -243,7 +243,7 @@ jobs:
             os_name: linux
             arch: x64
           - os: macos-latest
-            os_name: darwin
+            os_name: macos
             arch: x64
     
     runs-on: ${{ matrix.os }}

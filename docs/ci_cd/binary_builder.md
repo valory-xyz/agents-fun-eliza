@@ -111,10 +111,10 @@ strategy:
         os_name: linux
         arch: arm64
       - os: macos-latest
-        os_name: darwin
+        os_name: macos
         arch: x64
       - os: macos-latest
-        os_name: darwin
+        os_name: macos
         arch: arm64
       - os: windows-latest
         os_name: windows
